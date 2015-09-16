@@ -10,14 +10,9 @@
 <configuration>
 	<property>
 		<name>hbase.zookeeper.quorum</name>
-		<value>moses.zookeeper5,moses.zookeeper6,moses.zookeeper7,moses.zookeeper8,moses.zookeeper9</value>
+		<value>zk cluster</value>
 		<description>Comma separated listof servers in the ZooKeeper Quorum.
 			Make sure put the following lines in your hosts file(/etc/hosts in *nix):
-				10.14.16.35 moses.zookeeper5
-				10.14.16.33 moses.zookeeper6
-				10.14.44.67 moses.zookeeper7
-				10.14.16.32 moses.zookeeper8
-				10.14.16.34 moses.zookeeper9
 		</description>
 	</property>
 	<property>
